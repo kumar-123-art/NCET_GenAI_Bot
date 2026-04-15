@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("PrapgenAI Content Generator", layout="wide")
 st.title("PrapgenAI - Content Generator")
-st.image("exciting-prabhas-signs-multi-film-deal-with-salaar-makers.html")
+st.image("prabhas-1708-1686915417.avif")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 product = st.text_input("Product")
 audience = st.text_input("Audience")
